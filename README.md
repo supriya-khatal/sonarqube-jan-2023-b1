@@ -1,5 +1,10 @@
 # Demo Web Application with Spring Security, Spring Boot, Spring Data JPA, HSQL, JSP
 
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=sonarqube-Jan-2023 \
+  -Dsonar.host.url=http://172.31.6.84:9000 \
+  -Dsonar.login=sqp_1809a894b90611c8a07817df035c57b7707a4e50
+
 ## Demo
 
 The "feature" branch of this project is deployed to heroku and can be seen @ this url https://dboot.herokuapp.com/
