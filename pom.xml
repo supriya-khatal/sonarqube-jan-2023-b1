@@ -13,7 +13,7 @@
     </parent>
 
     <properties>
-	    <sonar.dynamicAnalysis>reuseReports<sonar.dynamicAnalysis>
+	    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 								 
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
